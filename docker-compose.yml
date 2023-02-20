@@ -47,3 +47,8 @@ volumes:
   mongovol1:
   mongovol2:
   mongovol3:
+
+# docker-compose -f docker-compose.yml build frontend
+# docker-compose exec frontend npm i --save-devvue2-dropzone
+# docker-compose exec frontend npm rm --save-dev exif-reader
+# docker-compose exec frontend npm i --save-dev @vue/eslint-config-standard

@@ -28,3 +28,5 @@ EXPOSE 3000
 
 ENV TZ="Asia/Kuala_Lumpur"
 CMD [ "npm", "start" ]
+
+# docker-compose exec api npm i --save expressvalidator
